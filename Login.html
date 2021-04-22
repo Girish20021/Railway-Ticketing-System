@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>
+            Login Page.
+        </title>
+        <style type="text/css">
+        @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(train.jpg);
+            background-position: center;
+            background-size: cover;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            letter-spacing: 1.4px;
+        }
+        ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color:orange;
+                text-align: right;
+            }
+            li {
+              float: left;
+              padding:10px 30px;
+            }
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 10px 60px;
+              text-decoration: none;
+             }
+             li a:hover {
+               background-color: #111111;
+             }
+       /* .logform{
+            width: 800px;
+            background-color: rgba(0,0,0,0.6);
+            margin: auto;
+            color: #FFFFFF;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+            border-radius: 15px 15px 15px 15px;
+        }*/
+        .main{
+            padding: 55px 50px;
+            width: 400px;
+            background-color: rgba(0,0,0,0.3);
+            margin: auto;
+            margin-right: 350px;
+            color: #FFFFFF;
+            /*padding: 10px 0px 10px 0px;*/
+            text-align: center;
+            border-radius: 15px 15px 15px 15px;
+
+        }
+        
+        .Username{
+            width:35%;
+            padding:10px 10px;
+            margin:5px 0;
+            border-left: 0;
+            border-top: 0;
+            border-right: 30px;
+            outline:none;
+            
+            
+        }
+        .password{
+            width:35%;
+            padding:10px 10px;
+            margin:5px 0;
+            border-left: 0;
+            border-top: 0;
+            border-right: 0;
+            outline:none;
+        }
+        .Username,.password{
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+        }
+        body, html{     
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+             user-select: none;  
+        }
+        #ino{
+            margin-left: -150px;
+            width: 700px;
+        }
+
+        .submit {
+            width:35%;
+            font-size: medium;
+            padding:10px 10px;
+            margin:5px 0;
+            background-color: #6495ED ;
+            border-radius: 15px;
+        }
+        .submit:hover{
+            cursor: pointer;
+            color:white;
+            background-color: #000080;
+        }
+
+a {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+        </style>
+    </head>
+    <body>
+        <ul id='Main Menu'>
+            <li><a href="Home.html" target="_self">Home</a></li>
+            <li><a href="pnr.html" target="_blank">PNR Status</a></li>
+            <li><a href="Book A Ticket.html" target="_blank">Book Your Seat</a></li>
+            <li><a href="Login.html" target="_blank">Login/Register</a></li>
+            <li><a href="Contact.html" target="_blank">Contact Us</a></li>
+        </ul>
+
+        <br> <br> <br> <br> <br> <br> <br>
+
+        <div class="main">
+            <div><h1>Login Page</h1> <br> <br>
+                <form>
+            <div id="ino">
+                <input class="Username" type="text" name="User_name" placeholder="&#xf2ba;  User Name" required><br><br>
+                <input class="password" type="password" name="Password" placeholder="&#xf084;  Password" required><br><br>
+                <input class="submit" type="submit"> <br> <br>
+                <p style="color: whitesmoke;">NOT YET REGISTERED? <a href="Register-Form.html" style="color: yellow;">Register here</a></p>
+                <p style="color:whitesmoke;">Forgot Password?<a href="changepass.html" style="color: yellow;">Change Here.</a></p>
+            </div>
+                </form>
+        </div>
+    </body>
+</html>

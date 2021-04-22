@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<h1><b><i>Registration</i></b></h1>
+	<style type="text/css">
+		h1{
+			text-align: center;
+			font-family: Times New Roman;
+	        padding:5px;
+	        width:220px;
+	        margin-left: 580px;
+		}
+        body{
+            background-image: url(travel.png);
+
+            background-size: cover;
+            font-family: sans-serif;
+            background-repeat: no-repeat;
+        }  
+        .form{
+       position:absolute;
+       z-index: 1;
+       max-width:410px;
+       margin:0 auto 100px;
+       padding:50px;
+       max-height:1200px;
+       left: 33.33%;
+       color: rgb(0, 254, 254);
+       background-color: rgb(0,0,0); /* Fallback color */
+       background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+       color: white;
+       }
+       .form input{
+       outline:none;
+       background:white;
+       width:100%;
+       border:50;
+       margin:0 0 15px;
+       padding:15px;
+       box-sizing:border-box;
+       font-size: 14px;
+       }
+       .submit-btn{
+    width:85%;
+    padding:10px 30px;
+    cursor:pointer;
+    display: block;
+    margin: auto;
+    background: #3baf9f;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+	</style>
+	<script type="text/javascript">
+		function testResults(form)
+		{
+			alert("Your record is submitted succesfully!");
+		}
+	</script>
+</head>
+<body>
+	<div class = 'form'>
+	<form name = "Register-form" >
+		First name:
+		<input type="Text" required><br><br>
+		Last name:
+		<input type="Text" required><br><br>
+
+		Email id:
+		<input type="Text" required><br><br>
+        Password:
+        <input type="password" required><br><br>
+		Mobile Number:
+		<input type="Number" required><br>
+	    <br>
+    </div>
+        <input type="submit" value="Submit" name="submit" class="submit-btn" onclick="Results(this.form)" id="submitbtn">
+    </form>
+
+
+
+</body>
+</html>
